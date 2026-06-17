@@ -1,29 +1,29 @@
 import datetime
-n = datetime.datetime.now()
+Now = datetime.datetime.now()
 
 def DiaHoy():
-    hoy = n.strftime("%d/%m/%Y")
+    hoy = Now.strftime("%d/%m/%Y")
     print(f'El dia de hoy es: {hoy}')
     return
 
 def DiaSemana():
-    hoy = n.strftime('%A')
+    hoy = Now.strftime('%A')
     print(f'El dia de la semana es: {hoy}')
 
 def DiaMes():
-    mes = n.strftime('%d')
+    mes = Now.strftime('%d')
     print(f'Hoy es: {mes}')
 
 def NombreDeMes():
-    mes = n.strftime('%B')
+    mes = Now.strftime('%B')
     print(f'Nombre del mes actual: {mes}')
 
 def Ano():
-    ano = n.strftime('%Y')
+    ano = Now.strftime('%Y')
     print(f'Estamos en: {ano}')
 
 def siglo():
-    anno = n.year
+    anno = Now.year
     siglo = (anno - 1) // 100 + 1
     print(f'Estamos en el siglo: {siglo}')
 
