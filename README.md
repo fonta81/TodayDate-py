@@ -1,23 +1,27 @@
-# Gestor de Fecha y Tiempo Interactivo
+```markdown
+# Date Menu Application (`MenuDeDias.py`)
 
-Un script interactivo en Python que permite al usuario consultar información detallada sobre la fecha actual (día, semana, mes, año e incluso el siglo) a través de un menú visual en la terminal.
+A simple interactive Python command-line utility that provides calendar and date information based on the current system time.
 
----
+## Features
 
-## Características
+- **Day of the Month:** Displays the current day (e.g., `26`).
+- **Month Number:** Displays the current month as a number (e.g., `06`).
+- **Current Year:** Displays the 4-digit calendar year.
+- **Full Date Format:** Displays the current date in `YYYY/MM/DD` format.
+- **Current Century:** Calculates and displays the current century based on the year.
+- **Input Validation:** Built-in error handling to prevent crashes from invalid numeric or text entries.
 
-El programa ofrece un menú interactivo con las siguientes opciones:
+## Requirements
 
-*   **El día de hoy:** Muestra la fecha actual en formato `DD/MM/AAAA`.
-*   **Día de la semana:** Indica qué día de la semana es hoy (en inglés por defecto).
-*   **Día del mes:** Muestra el número del día actual.
-*   **Mes:** Muestra el nombre completo del mes actual.
-*   **Año actual:** Muestra el año en curso en formato de 4 dígitos.
-*   **El siglo actual:** Calcula dinámicamente el siglo en el que nos encontramos mediante matemáticas enteras.
+- Python 3.x
+- `datetime` module (Standard library, no external installation required)
 
----
+## Installation & Usage
 
-## Requisitos
+1. Clone or download the script file. Ensure it is named `MenuDeDias.py`.
+2. Open your terminal or command prompt.
+3. Navigate to the directory containing the file and run:
 
-*   **Python 3.x** instalado en tu sistema.
-*   No requiere librerías externas (utiliza el módulo nativo `datetime`).
+```bash
+python MenuDeDias.py
