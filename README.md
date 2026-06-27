@@ -1,4 +1,4 @@
-```markdown
+
 # Date Menu Application (`MenuDeDias.py`)
 
 A simple interactive Python command-line utility that provides calendar and date information based on the current system time.
